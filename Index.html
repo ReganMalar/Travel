@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelCo - Car Rentals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <h1>TravelCo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Banner -->
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h2>Your Adventure Starts Here</h2>
+            <p>Explore the world with comfort and style. We offer personalized travel experiences with our exclusive cars.</p>
+            <a href="#services" class="cta-btn">See Our Cars</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At TravelCo, we offer exclusive car rentals for your next adventure. With only two premium vehicles, we ensure a personalized travel experience for every customer.</p>
+        </div>
+    </section>
+
+    <!-- Services Section (Car Rental) -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Cars</h2>
+            <div class="car-list">
+                <div class="car">
+                    <img src="car1.jpg" alt="Car 1">
+                    <h3>Luxury Sedan</h3>
+                    <p>Comfortable, spacious, and perfect for city tours.</p>
+                </div>
+                <div class="car">
+                    <img src="car2.jpg" alt="Car 2">
+                    <h3>Convertible Sports</h3>
+                    <p>For those who want a thrill on the open road.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a question or ready to book? Reach out to us!</p>
+            <form action="submit_booking.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TravelCo - All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
